@@ -58,7 +58,7 @@ public class POS extends JFrame {
         Reset.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Burger_pos.setText("0");
+                Burger_pos.setText("10000");
                 Hotdog_pos.setText("0");
                 Cooldrink_pos.setText("0");
                 Ice_cream_pos.setText("0");
